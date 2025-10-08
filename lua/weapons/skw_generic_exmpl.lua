@@ -18,6 +18,6 @@ SWEP.Slot = 1
 SWEP.SlotPos = 1
 SWEP.ViewModel = "models/weapons/c_smg1.mdl"
 SWEP.WorldModel = "models/weapons/w_smg1.mdl"
-SWEP.HoldType = "smg1"
+SWEP.HoldType = "smg"
 SWEP.SKB_RecoilX = 67.5
 SWEP.SKB_RecoilY = 59
