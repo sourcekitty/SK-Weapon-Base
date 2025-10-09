@@ -40,7 +40,9 @@ SWEP.SKB_PumpAfterShot = true -- Should pump after shooting (disable if the shoo
 
 SWEP.SKB_PumpAfterReload = true -- Should pump after reload? (disable if the finish reloading animation already has pumping)
 
-SWEP.SKB_ShellInsert = Sound("Weapon_Shotgun.Reload") -- Shell Insert sound (if left nil then it won't load it)
+SWEP.SKB_ShellInsert = Sound("Weapon_Shotgun.Reload") -- Shell Insert sound (if left nil then it won't load it or play)
+
+SWEP.SKB_PumpSound = Sound("Weapon_Shotgun.Special1") -- Shell Pump sound (if left nil then it won't load it or play)
 
 ```
 # Sniper
@@ -55,6 +57,7 @@ SWEP.SKB_ScopeSnd = Sound("Weapon_Pistol.Empty") -- Scope sound
 ```
 # How it should be set up
 ```lua
+
 SWEP.PrintName = "Your Weapon"
 SWEP.Category = "Other"
 SWEP.Spawnable = true
@@ -78,4 +81,5 @@ SWEP.WorldModel = "models/weapons/w_smg1.mdl"
 SWEP.HoldType = "smg1"
 SWEP.SKB_RecoilX = 13
 SWEP.SKB_RecoilY = 24
+
 ```

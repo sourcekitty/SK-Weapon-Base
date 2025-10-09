@@ -27,3 +27,4 @@ SWEP.SKB_LegacyVP = true
 SWEP.SKB_PumpDelay = 0.35
 SWEP.SKB_PumpDelayShot = 0.3
 SWEP.SKB_ShellInsert = Sound("Weapon_Shotgun.Reload")
+SWEP.SKB_PumpSound = Sound("Weapon_Shotgun.Special1")
