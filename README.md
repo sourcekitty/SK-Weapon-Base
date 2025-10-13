@@ -8,6 +8,12 @@ This github version comes in with a addon & update checker, make sure you change
 
 SWEP.SKB_ShootSound = Sound("Weapon_SMG1.Single") -- This sets the firing sound
 
+SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload") -- This sets the reload sound
+
+SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1") -- This sets the equip sound
+
+SWEP.SKB_ImpactEffect = "MetalSpark" -- Sets the impact effect (default is metalspark but setting to nil goes back to the default effect)
+
 SWEP.SKB_RecoilX = 1 -- How much side to side camera movement there is
 
 SWEP.SKB_RecoilY = 1 -- How much up & down camera movement there is
@@ -83,7 +89,10 @@ SWEP.WorldModel = "models/weapons/w_smg1.mdl"
 SWEP.HoldType = "smg1"
 SWEP.SKB_RecoilX = 13
 SWEP.SKB_RecoilY = 24
+SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload")
+SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1")
 
 ```
+
 
 
