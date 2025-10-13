@@ -20,6 +20,8 @@ SWEP.SKB_RecoilY = 1 -- How much up & down camera movement there is
 
 SWEP.SKB_Range = 56756 -- Shouldn't be changed
 
+SWEP.SKB_ResetVP = 1 -- Resets all viewpunches except for the last X you set it to (hl2 base sets it to 0)
+
 ```
 # Viewpunch
 ```lua
@@ -100,6 +102,12 @@ SWEP.SKB_IncreaseVPTimer = 1 -- How much time till it resets the viewpunch multi
 
 SWEP.SKB_VPIncrease = 1 -- How much multiplier is added to the viewpunch after each shot
 
+SWEP.SKB_VPMX = 1 -- Viewpunch X multiplier
+
+SWEP.SKB_VPMY = 1 -- Viewpunch Y multiplier
+
+SWEP.SKB_VPMZ = 1 -- Viewpunch Z multiplier
+
 ```
 # How it should be set up
 ```lua
@@ -131,6 +139,7 @@ SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload")
 SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1")
 
 ```
+
 
 
 
