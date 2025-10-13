@@ -63,6 +63,44 @@ SWEP.SKB_ScopeInSnd = Sound("Weapon_SniperRifle.Special1") -- The sound when you
 SWEP.SKB_ScopeOutSnd = Sound("Weapon_SniperRifle.Special2") -- The sound when you scope out
 
 ```
+# Lever Action (Combines Sniper & Shotgun code)
+```lua
+
+SWEP.SKB_Zoom = 45 -- The set fov of its zoom
+
+SWEP.SKB_ZoomSpread = 0 -- The Zoom's spread
+
+SWEP.SKB_ScopeInSnd = Sound("Weapon_SniperRifle.Special1") -- The sound when you scope in
+
+SWEP.SKB_ScopeOutSnd = Sound("Weapon_SniperRifle.Special2") -- The sound when you scope out
+
+SWEP.SKB_ReloadDelay = 0.15 -- The delay on each shell being inserted
+
+SWEP.SKB_PumpDelay = 0.35 -- The deplay on pumping after reloading (auto set to 0 if pumping disabled)
+
+SWEP.SKB_PumpDelayShot = 0.3 -- The deplay on pumping after shooting (auto set to 0 if pumping disabled)
+
+SWEP.SKB_PumpAfterShot = true -- Should pump after shooting (disable if the shooting animation already has pumping)
+
+SWEP.SKB_PumpAfterReload = true -- Should pump after reload? (disable if the finish reloading animation already has pumping)
+
+SWEP.SKB_ShellInsert = Sound("Weapon_Shotgun.Reload") -- Shell Insert sound (if left nil then it won't load it or play)
+
+SWEP.SKB_PumpSound = Sound("Weapon_Shotgun.Special1") -- Shell Pump sound (if left nil then it won't load it or play)
+
+```
+# Half-Life 2
+```lua
+
+SWEP.SKB_IncreaseSprTimer = 1 -- How much time till it resets the spread
+
+SWEP.SKB_SprIncrease = 1 -- How much spread increase after each shot
+
+SWEP.SKB_IncreaseVPTimer = 1 -- How much time till it resets the viewpunch multiplier
+
+SWEP.SKB_VPIncrease = 1 -- How much multiplier is added to the viewpunch after each shot
+
+```
 # How it should be set up
 ```lua
 
@@ -93,6 +131,7 @@ SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload")
 SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1")
 
 ```
+
 
 
 
