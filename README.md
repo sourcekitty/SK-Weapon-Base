@@ -108,6 +108,10 @@ SWEP.SKB_VPMY = 1 -- Viewpunch Y multiplier
 
 SWEP.SKB_VPMZ = 1 -- Viewpunch Z multiplier
 
+SWEP.SKB_MaxSpread = 1.0 -- Max Spread Value
+
+SWEP.SKB_MaxViewpunch = 2.0 -- Max Viewpunch Mult
+
 ```
 # How it should be set up
 ```lua
@@ -139,6 +143,7 @@ SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload")
 SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1")
 
 ```
+
 
 
 
