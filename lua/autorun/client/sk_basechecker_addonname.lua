@@ -1,5 +1,5 @@
 local hasbase = false
-local nbv = 2 --Needed Major Base Version, Only change if you updated your addon & check what version the base is on.
+local nbv = 3 --Needed Major Base Version, Only change if you updated your addon & check what version the base is on.
 if SK_HAS_BASE then hasbase = true end
 hook.Add("InitPostEntity", "MissingAddonMessage" .. math.random(0, 1000), function()
     if SK_BASE_MESSAGE then return end
@@ -31,4 +31,5 @@ hook.Add("InitPostEntity", "IncorrectFileVersion" .. math.random(0, 1000), funct
         )
     end
 end)
+
 
