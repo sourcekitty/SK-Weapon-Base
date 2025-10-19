@@ -113,6 +113,17 @@ SWEP.SKB_MaxSpread = 1.0 -- Max Spread Value
 SWEP.SKB_MaxViewpunch = 2.0 -- Max Viewpunch Mult
 
 ```
+# CStrike
+```lua
+
+-- The recoil of each bullet {x,y} (make sure to make as long as the mag size or longer)
+SWEP.RecoilTable = {{0.4,0.6},{-0.25,1.05},{0.15,1.7},{0.15,1.75},{-0.3,1.6},{-0.45,1.3},{-0.6,1.2},{1.4,0.85},
+{1.8,-0.1},{0.65,0.1},{0.8,0.2},{0.5,0.3},{-0.6,0.15},{-1.5,0},{-2,0.1},{-2.5,-0.1},{-2,0.5},{1.5,0},{2,0},
+{2.5,-0.2},{2,0},{1.5,0.2},{-2,-0.2},{-2.5,0.1},{-2,0.4},{-1.5,0},{-2,0.1},{2,0.4},{2.5,0.1},{2,0}}
+
+SWEP.RecoilWait = 0.35 -- How long it waits till it resets the recoil
+
+```
 # How it should be set up
 ```lua
 
@@ -143,9 +154,3 @@ SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload")
 SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1")
 
 ```
-
-
-
-
-
-
