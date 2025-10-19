@@ -26,11 +26,11 @@ SWEP.SKB_ResetVP = 1 -- Resets all viewpunches except for the last X you set it 
 # Viewpunch
 ```lua
 
-SWEP.SKB_VX = 1.0 -- Vertical & has a min of 0
+SWEP.SKB_VPX = 1.0 -- Vertical & has a min of 0
 
-SWEP.SKB_VY = 1.0 -- Horizontal & has a min of its negative
+SWEP.SKB_VPY = 1.0 -- Horizontal & has a min of its negative
 
-SWEP.SKB_VZ = 1.0 -- Side to side & has a min of its zero
+SWEP.SKB_VPZ = 1.0 -- Side to side & has a min of its zero
 
 SWEP.SKB_LegacyVP = false -- Legacy Viewpunch, shouldn't be used usually
 
@@ -140,9 +140,9 @@ SWEP.Primary.Spread = 0.2
 SWEP.Primary.Automatic = true
 SWEP.Primary.Delay = 0.07
 SWEP.Force = 1.1
-SWEP.SKB_VX = -4.0
-SWEP.SKB_VY = 2.0
-SWEP.SKB_VZ = 5.0
+SWEP.SKB_VPX = -4.0
+SWEP.SKB_VPY = 2.0
+SWEP.SKB_VPZ = 5.0
 SWEP.Slot = 1
 SWEP.SlotPos = 1
 SWEP.ViewModel = "models/weapons/c_smg1.mdl"
@@ -154,3 +154,4 @@ SWEP.SKB_ReloadSound = Sound("Weapon_SMG1.Reload")
 SWEP.SKB_EquipSound = Sound("Weapon_SMG1.Special1")
 
 ```
+
