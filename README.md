@@ -1,6 +1,7 @@
 # Base Download Required - https://steamcommunity.com/sharedfiles/filedetails/?id=3583054915
 
 This github version comes in with a addon & update checker, make sure you change the version number (nbv) to whatever the public one is set to & change part of the file name to load it seperate from other checkers.
+This is out of date & will be updated maybe in a month because I am lazy
 
 # Custom Properties List (There are more but these ones are meant for customizing)
 # All
